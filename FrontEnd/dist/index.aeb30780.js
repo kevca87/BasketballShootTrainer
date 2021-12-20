@@ -1,0 +1,2 @@
+class e{constructor(e,t){this.cornerLS=e,this.cornerRI=t}getScaleXY(e){return x=e.xDiff(this.cornerLS),y=e.yDiff(this.cornerLS),y}}window.addEventListener("load",(t=>{document.getElementById("shoot-chart").addEventListener("click",(function(t){var o,c,n,r;console.log("x:".concat(t.x,", y:").concat(t.y)),o=document.querySelector("img"),c=document.querySelector("body"),n=Math.round(.125*c.clientWidth),r=new e({x:n,y:n+o.width},{x:n,y:n+o.width}),console.log(r)}))}));
+//# sourceMappingURL=index.aeb30780.js.map

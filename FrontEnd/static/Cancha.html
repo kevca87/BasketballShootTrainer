@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Titulo de la web</title>
+        <style>
+            p.info {color:green}
+            p.advertencia {color:blue}
+            p.error {color:red}
+            html{
+                cursor: url("AquaCircle.png"),auto;
+            }
+        </style>
+    </head>
+    <body background="BasketballCourtSchema.png">
+        <div>
+            <img id="imagen" src="AquaCircle.png"/> 
+        </div>
+        <script>
+            document.onclick = function(e){
+                cursorX = e.pageX-8;
+                cursorY = e.pageY-8;
+                document.getElementById('imagen').style.marginLeft = String(cursorX)+"px";
+                document.getElementById('imagen').style.marginTop = String(cursorY)+"px";
+            }
+        </script>
+    </body>
+</html>
