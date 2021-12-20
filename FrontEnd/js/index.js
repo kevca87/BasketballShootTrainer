@@ -11,7 +11,6 @@ window.addEventListener('load', (event) => {
     
     function showClickCoord(event){
         console.log(`x:${event.x}, y:${event.y}`);
-        showImageXY();
     }
     shootChart.addEventListener('click',showClickCoord);
 });

@@ -474,7 +474,6 @@ window.addEventListener('load', function(event1) {
     var shootChart = document.getElementById('shoot-chart');
     function showClickCoord(event) {
         console.log("x:".concat(event.x, ", y:").concat(event.y));
-        showImageXY();
     }
     shootChart.addEventListener('click', showClickCoord);
 });
