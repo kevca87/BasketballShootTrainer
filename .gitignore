@@ -1,0 +1,4 @@
+FrontEnd/node_modules
+FrontEnd/.cache
+FrontEnd/dist
+FrontEnd/.parcel-cache
